@@ -1,6 +1,10 @@
 const SearchPage = () => {
   return (
-    <h1>Search Page</h1>
+    <>
+      <h1 className="text-4xl font-bold">
+        Search Page
+      </h1>
+    </>
   )
 }
 
