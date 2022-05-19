@@ -40,7 +40,7 @@ const HomePage = () => {
      <>
        <h1 className='text-5xl pb-10'>Create Note</h1>
        <CreateForm onCreateSubmit={onCreateSubmit} />
-       <h3 className='text-3xl'>My Notes</h3>
+       <h3 className='text-4xl pb-4'>My Notes</h3>
        {notes.length > 0 ? renderedNotes : <p>No notes yet.</p>}
      </>
    )
